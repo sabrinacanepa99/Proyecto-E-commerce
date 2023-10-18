@@ -1,0 +1,36 @@
+.producto{
+    background-color: #f2efea;
+    display: flex;
+    border-radius: 0.5rem; 
+    width: 270px;
+    margin-bottom: 10rem;
+    height: 420px;
+    text-align: center;
+    font-size: large;
+}
+.producto img{
+    margin: 1rem 0 0 0;
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    #productos{
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        place-items: center;
+    }
+    .producto{
+        margin-bottom: 10rem;
+    }
+}
+@media (min-width: 1024px){
+    #productos{
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        place-items: center;
+    }
+    .producto{
+        margin-bottom: 10rem;
+    }
+}

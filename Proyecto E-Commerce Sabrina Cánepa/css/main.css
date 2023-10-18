@@ -1,0 +1,135 @@
+body{
+    background-color: #d5d3cf;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 5rem auto 3rem;
+    grid-template-areas: 
+    "n2 n2"
+    "n1 n1"
+    "n3 n3";
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul {
+margin: 0;
+padding: 0;
+}
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-body{
+    background-color: #fcab48;
+    grid-area: n2;
+}
+.header-body h1{
+    text-align: center;
+    color: black;
+    margin-bottom: 10px;
+}
+.nav{
+  display: flex;
+  justify-content: center; 
+}
+.nav a{
+    font-size: 20px;
+    color: black;
+    transition: 0.2s ease;
+    margin-left: 20px;
+}
+.nav a:hover{
+    border-bottom: 2px solid black;
+}
+.nav span {
+    font-size: 15px;
+    border-radius: 5px;
+}
+main{
+    grid-area: n1;
+}
+.header-main h2{
+    text-align: center;
+    color: black;
+}
+footer{
+    background-color: #666c46;
+    grid-area: n3;
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+footer a{
+    color: black;
+    font-size: 17px;
+    margin-top: 10px;
+}
+#productos{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 100%;
+    align-items: center;
+}
+.producto{
+    background-color: #f2efea;
+    display: flex;
+    border-radius: 0.5rem; 
+    width: 270px;
+    margin-bottom: 1rem;
+    height:400px ;
+    text-align: center;
+    font-size: large;
+    
+}
+.producto img{
+    margin: 1rem 0 0 1rem;
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+}
+#idProducto{
+    display: none;
+}
+.producto a, .producto button{
+    background-color: #fcab48;
+    color: #f2efea;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: medium;
+}
+.producto a:hover, .producto button:hover {
+    background-color: #f9b35d;
+}
+.producto ul li p{
+    margin-bottom: 10px;
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    #productos{
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        place-items: center;
+    }
+}
+@media (min-width: 1024px){
+    #productos{
+        display: grid;
+        grid-template-columns: repeat(3, 35%);
+        place-items: center;
+    }
+}

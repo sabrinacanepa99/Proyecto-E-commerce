@@ -1,0 +1,77 @@
+{
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Producto 1",
+        "descripcion": "Zapatillas urbanas",
+        "descripcion2": "Zapatillas urbanas, color verde oliva, marca Nike",
+        "imagen": "./img-prod/Urbano/12ce46ba4710acd7944fcc1042ee4226.jpg",
+        "descripcionImg": "Zapatillas urbanas",
+        "precio": "19.00"
+      },
+      {
+        "id": 2,
+        "nombre": "Producto 2",
+        "descripcion": "Zapatillas urbanas",
+        "descripcion2": "Zapatillas urbanas, color blanco, marca Puma",
+        "imagen": "./img-prod/Urbano/6b62467ed5da6ab82a94984b8e64bfbd.jpg",
+        "descripcionImg": "Zapatillas urbanas",
+        "precio": "24.00"
+      },
+      {
+        "id": 3,
+        "nombre": "Producto 3",
+        "descripcion": "Sandalias",
+        "descripcion2": "Sandalias Stiletto, color nude, marca Gucci",
+        "imagen": "./img-prod/Sandalias/8cc5b0d7119e2318b5d52c4f044620b8.jpg",
+        "descripcionImg": "Sandalias",
+        "precio": "34.00"
+      },
+      {
+        "id": 4,
+        "nombre": "Producto 4",
+        "descripcion": "Sandalias",
+        "descripcion2": "Sandalias, color blanco, marca Fashion",
+        "imagen": "./img-prod/Sandalias/eb2bc32cfdc684201ddf2a29afdf56b7.jpg",
+        "descripcionImg": "Sandalias",
+        "precio": "14.00"
+      },
+      {
+        "id": 5,
+        "nombre": "Producto 5",
+        "descripcion": "Zapatillas deportivas",
+        "descripcion2": "Zapatillas deportivas, color negro, marca Nike",
+        "imagen": "./img-prod/Deportivo/a49ce4b16aeee066e05c3110f357ce9f.jpg",
+        "descripcionImg": "Zapatillas deportivas",
+        "precio": "39.00"
+      },
+      {
+        "id": 6,
+        "nombre": "Producto 6",
+        "descripcion": "Zapatillas deportivas",
+        "descripcion2": "Zapatillas deportivas, color nude, marca Nike",
+        "imagen": "./img-prod/Deportivo/fac6fa982c4a0c5c23efe76e0ef2c0f4.jpg",
+        "descripcionImg": "Zapatillas deportivas",
+        "precio": "29.00"
+      },
+      {
+        "id": 7,
+        "nombre": "Producto 7",
+        "descripcion": "Botas",
+        "descripcion2": "Botas altas, color blanco, marca Zarkany",
+        "imagen": "./img-prod/Botas/12b091dcb4a10c86305cbefd7633169f.jpg",
+        "descripcionImg": "Botas",
+        "precio": "49.00"
+      },
+      {
+        "id": 8,
+        "nombre": "Producto 8",
+        "descripcion": "Botas",
+        "descripcion2": "Botas borcego, color negro, marca Gucci",
+        "imagen": "./img-prod/Botas/920c02a4638c55aa15bbede17f13e9d2.jpg",
+        "descripcionImg": "Botas",
+        "precio": "19.00"
+      }
+    ]
+  }
+  
